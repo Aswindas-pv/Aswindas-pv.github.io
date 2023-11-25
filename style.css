@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'FlameBold';
+    src: url(FlameBold.otf);
+}
+
+@font-face {
+    font-family: 'FlameRegular';
+    src: url(FlameRegular.otf);
+}
+
+@font-face {
+    font-family: 'FlameSans';
+    src: url(FlameSans.otf);
+}
+
+.body {
+    background-color: #F5EBDC;
+    padding-bottom: 60px;
+}
+
+/* HEADER */
+.header {
+    height: 104px;
+    width: 100%;
+    background-color: #F5EBDC;
+    position: fixed;
+    box-shadow: 0 0 1px 0 black;
+}
+
+.menuicon {
+    width: 24px;
+    height: 24px;
+    margin: 10px 172px 0;
+    font-size: 20px;
+    line-height: 40px;
+    color: #502314;
+    font-weight: bold;
+}
+
+.menuicon:hover {
+    background-color: rgba(255, 252, 252, 0.259);
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu img {
+    width: 42px;
+    height: 43px;
+    margin-top: 6px;
+    margin-left: 381px;
+
+}
+
+.menu img:hover {
+    background-color: rgba(227, 244, 255, 0.532);
+    cursor: pointer;
+}
+
+.signup-signin {
+    background-color: #d62300;
+    font-family: FlameRegular;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    font-weight: lighter;
+    height: 34px;
+    width: 115px;
+    margin-top: 11px;
+    border: 0;
+    margin-left: 363px;
+    border-radius: 17px;
+}
+
+.signup-signin:hover {
+    background-color: #9b1a00;
+    cursor: pointer;
+}
+
+.cart {
+    font-family: FlameRegular;
+    background-color: #502314;
+    color: rgb(245, 235, 220);
+    font-size: 12px;
+    line-height: 35px;
+    height: 34px;
+    width: 84.0625px;
+    border-radius: 17px;
+    margin-top: 11px;
+    margin-left: 16px;
+}
+
+.cart i {
+    font-size: 9.9px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+.cart:hover {
+    background-color: #9b1a00;
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 176px;
+    color: #502314;
+}
+
+.location img {
+    width: 16px;
+    height: 16px;
+}
+
+.location:hover {
+    cursor: pointer;
+}
+
+.foravail {
+    font-size: 16px;
+    font-family: FlameRegular;
+    font-weight: normal;
+    line-height: 19px;
+    margin-left: 10px;
+}
+
+.cl {
+    font-size: 14px;
+    font-family: FlameSans;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: 6px;
+    text-decoration: underline;
+}
+
+
+/* FIRST PAGE */
+.first-page {
+    display: flex;
+    margin-left: 169px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-order-text {
+    width: 300px;
+    line-height: 67.5px;
+    font-size: 59px;
+    color: rgb(80, 35, 20);
+    font-family: FlameBold;
+    margin-top: 157px;
+    letter-spacing: 0px;
+}
+
+
+.order-pickup i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.order-pickup {
+    background-color: #d62300;
+    color: white;
+    font-size: 18px;
+    font-family: FlameRegular;
+    height: 55px;
+    width: 300px;
+    border-radius: 26.5px;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.order-pickup:hover {
+    background-color: #9b1a00;
+    cursor: pointer;
+}
+
+.order-delivery {
+    color: #d62300;
+    font-size: 18px;
+    font-family: FlameRegular;
+    background-color: #F5EBDC;
+    height: 55px;
+    width: 300px;
+    border-style: solid;
+    border-color: #da3e0a;
+    border-radius: 26.5px;
+    margin-top: 20px;
+    margin-left: 1px;
+    border-width: 1px;
+}
+
+.order-delivery:hover {
+    background-color: rgb(250, 224, 225);
+    cursor: pointer;
+}
+
+.first-page img {
+    width: 680px;
+    margin-top: 105px;
+    margin-left: 149px;
+}
+
+
+/* SECOND PAGE */
+.secondpage {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 172px;
+}
+
+/* Container-1 */
+.container1 {
+    box-shadow: 1px 1px 6px rgb(208, 203, 203);
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    height: 496.6;
+}
+
+.container1 img {
+    height: 290;
+    width: 580px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container1 img:hover {
+    cursor: pointer;
+}
+
+.container1 h1 {
+    color: #502314;
+    font-size: 24px;
+    font-family: FlameRegular;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container1 p {
+    font-size: 13px;
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+}
+
+.container1-See-Terms {
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.container1-See-Terms:hover {
+    cursor: pointer;
+}
+
+.container1 button {
+    font-size: 14px;
+    font-family: FlameRegular;
+    color: #D62300;
+    width: 124.8px;
+    height: 38.6px;
+    margin-left: 435px;
+    margin-top: 20px;
+    border: 1px solid #D62300;
+    border-radius: 65px;
+    background-color: #ffffff;
+}
+
+.container1 button:hover {
+    background-color: #F5EBDC;
+    cursor: pointer;
+}
+
+/* Container-2 */
+.container2 {
+    margin-left: 15px;
+    box-shadow: 1px 1px 6px rgb(208, 203, 203);
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    height: 490px;
+}
+
+.container2 img {
+    height: 290;
+    width: 580px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container2 img:hover {
+    background-color: #F5EBDC;
+    cursor: pointer;
+}
+
+.container2 h1 {
+    color: #502314;
+    font-size: 24px;
+    font-family: FlameRegular;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container2 p {
+    font-size: 13px;
+    width: 540px;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+}
+
+.container2 button {
+    font-size: 14px;
+    font-family: FlameRegular;
+    color: #D62300;
+    width: 89.7125px;
+    ;
+    height: 38.6px;
+    margin-left: 470px;
+    margin-top: 25px;
+    border: 1px solid #D62300;
+    border-radius: 65px;
+    background-color: #ffffff;
+}
+
+.container2 button:hover {
+    background-color: #F5EBDC;
+}
+
+/* Third-Page */
+.thirdpage {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 172px;
+}
+
+/* Container-3 */
+.container3 {
+    box-shadow: 1px 1px 6px rgb(208, 203, 203);
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    height: 516.6px;
+}
+
+.container3 img {
+    height: 290;
+    width: 580px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container3 img:hover {
+    cursor: pointer;
+}
+
+.container3 h1 {
+    color: #502314;
+    font-size: 24px;
+    font-family: FlameRegular;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container3 p {
+    font-size: 13px;
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+}
+
+.container3-See-Terms {
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.container3-See-Terms:hover {
+    cursor: pointer;
+}
+
+.container3 button {
+    font-size: 14px;
+    font-family: FlameRegular;
+    color: #D62300;
+    width: 108.488px;
+    height: 38.6px;
+    margin-left: 450px;
+    margin-top: 65px;
+    border: 1px solid #D62300;
+    border-radius: 65px;
+    background-color: #ffffff;
+}
+
+.container3 button:hover {
+    background-color: #F5EBDC;
+    cursor: pointer;
+}
+
+/* Container-4 */
+.container4 {
+    margin-left: 15px;
+    box-shadow: 1px 1px 6px rgb(208, 203, 203);
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    height: 516.6px;
+}
+
+.container4 img {
+    height: 290;
+    width: 580px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container4 img:hover {
+    cursor: pointer;
+}
+
+.container4 h1 {
+    color: #502314;
+    font-size: 24px;
+    font-family: FlameRegular;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.container4 p {
+    font-size: 13px;
+    width: 545px;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+}
+
+.container4-See-Terms {
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: FlameSans;
+    color: #794e3e;
+    font-weight: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.container4-See-Terms:hover {
+    cursor: pointer;
+}
+
+.container4 button {
+    font-size: 14px;
+    font-family: FlameRegular;
+    color: #D62300;
+    width: 101.4px;
+    height: 38.6px;
+    margin-left: 460px;
+    margin-top: 25px;
+    border: 1px solid #D62300;
+    border-radius: 65px;
+    background-color: #ffffff;
+}
+
+.container4 button:hover {
+    background-color: #F5EBDC;
+    cursor: pointer;
+}
+
+
+/* FOURTH PAGE */
+.fourthpage {
+    width: 100%;
+    height: 592px;
+    background-color: #ebe2d3;
+}
+
+.space {
+    width: 100%;
+    height: 160px;
+    background-color: #f5ebdc;
+}
+
+.App-Store {
+    width: 220px;
+    height: 120px;
+    margin-bottom: 113px;
+    margin-left: 119px;
+}
+
+.App-Store:hover {
+    cursor: pointer;
+}
+
+.Play-Store {
+    width: 220px;
+    height: 120px;
+    margin-bottom: 113px;
+}
+
+.Play-Store:hover {
+    cursor: pointer;
+}
+
+.Mobile-Screen {
+    width: 310px;
+    margin-left: 309px;
+    margin-top: 116px;
+}
+
+.copyright {
+    width: 100%;
+    height: 55px;
+    background-color: #502314;
+    padding-top: 20px;
+}
+
+.copyright u:hover {
+    cursor: pointer;
+}
+
+.Save-offers {
+    display: flex;
+    flex-direction: column;
+    margin-left: 760px;
+    margin-top: 45px;
+    font-size: 48px;
+    font-family: FlameBold;
+    color: #502314;
+}
+
+.Terms-apply {
+    font-family: FlameSans;
+    color: #763a26;
+    font-size: 14px;
+    font-weight: 0.15px;
+    line-height: 25px;
+    margin-left: 760px;
+    margin-top: 120px;
+    width: 600px;
+}
+
+.appstore {
+    font-size: 14px;
+    width: 190px;
+    height: 51px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Apple {
+    font-size: 25px;
+}
+
+.copyright p {
+    color: #F5EBDC;
+    font-size: 12px;
+    font-family: FlameSans;
+    text-align: center;
+    font-weight: 9px;
+}
+
+
+#footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #f5ebdc;
+    position: fixed;
+    bottom: 0px;
+}
+
+#footer:hover {
+    cursor: pointer;
+}
+
+.Home-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+.Home-icon img {
+    height: 20px;
+    width: 21.1625px;
+    margin-left: 5px;
+}
+
+.Home-icon small {
+    font-size: 12px;
+    font-family: FlameSans;
+    color: #D62300;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+.Menu-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 355px;
+    margin-top: 10px;
+}
+
+.Menu-icon img {
+    height: 20px;
+    width: 21.1625px;
+    margin-left: 5px;
+}
+
+.Menu-icon small {
+    font-size: 12px;
+    font-family: FlameSans;
+    color: #502314;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+.Offers-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 355px;
+    margin-top: 10px;
+}
+
+.Offers-icon img {
+    height: 20px;
+    width: 21.1625px;
+    margin-left: 5px;
+}
+
+.Offers-icon small {
+    font-size: 12px;
+    font-family: FlameSans;
+    color: #502314;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+.Rewards-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 341px;
+    margin-top: 10px;
+}
+
+.Rewards-icon img {
+    height: 20px;
+    width: 21.1625px;
+    margin-left: 11px;
+}
+
+.Rewards-icon small {
+    font-size: 12px;
+    font-family: FlameSans;
+    color: #502314;
+    line-height: 20px;
+    font-weight: lighter;
+}
